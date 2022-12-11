@@ -16,6 +16,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+TARGET_SCREEN_DENSITY := 395
+
+# Board
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := sm8150
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
@@ -46,3 +51,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/vayu/vayu-vendor.mk)
+
+# SoC
+PROCESSOR_MODEL := SM8150 
