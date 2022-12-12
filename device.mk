@@ -16,7 +16,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-TARGET_SCREEN_DENSITY := 395
+TARGET_SCREEN_DENSITY := 410
 
 # Board
 PRODUCT_USES_QCOM_HARDWARE := true
